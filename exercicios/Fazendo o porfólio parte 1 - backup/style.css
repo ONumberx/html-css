@@ -1,0 +1,295 @@
+*,
+.font-family: 'Syne', sans-serif;
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
+
+body {
+    font-family: 'Syne', sans-serif;
+    color: white;
+
+    background-color: black;
+    background-attachment: fixed;
+}
+
+.tudes {
+    
+    background-image: url('capa.jpg'); /* GPT fez Substitua 'caminho-para-sua-imagem.jpg' pelo caminho real para a sua imagem */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    background-position:center; /* Centraliza a imagem no elemento */
+    color: #fff; /* Define a cor do texto */
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+
+}
+
+.tit {margin-top: 100px;
+    margin-bottom: 200px;
+    width: 49%;
+    padding: 5px;
+
+
+}
+
+.sub {margin-top: 100px;
+    margin-bottom: 200px;
+    width: 49%;
+    padding: 5px;
+
+}
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 768px) {
+    .tit {
+        margin-bottom: 1px;
+        margin-top:0px; 
+        padding-top: 0px;/* Margem menor para dispositivos móveis */
+    }
+}
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 768px) {
+    .sub {
+        margin-bottom: 100px;
+        margin-top: -30px; 
+        padding-top: px;/* Margem menor para dispositivos móveis */
+    }
+}
+
+.logosite {display: flex;
+    background-color: #0c0707;
+    width: 100%;
+    padding: 10px;
+}
+
+.tel {padding-top: 10px;
+    width: 50%;}
+
+.logosep {width: 50%;}
+
+.spamzim {background-image:linear-gradient(to left, #ffffff, #CE7226 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent !important;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    color: #CE7226;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    margin: 0px;
+    font-size: 25px;
+}
+
+.box3 {
+    background-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #CE7226;
+    text-align: left;
+    padding: 5px 5px 5px 5px;
+
+}
+
+.box4 {background-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #CE7226;
+    text-align: left;
+    padding: 5px 5px 5px 5px;
+}
+
+
+
+.box5 {background-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #CE7226;
+    text-align: left;
+    padding: 5px 5px 5px 5px;
+
+
+}
+
+.boxtodes {margin-top: -80px;
+    font-size: 14px;
+    display: grid; 
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 12px;
+
+
+}
+
+.boxtodes > p {font-weight: 400;
+font-size: 14px;
+background-color: beige;
+
+}
+
+.logo {
+    padding: 10px 0px 0px 10px;
+}
+
+.box5:hover {
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #ffffff;
+    box-shadow: 5px 5px 5px rgb(122, 119, 119);
+
+}
+
+
+.box3:hover {
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    /*Isso arredonda as bordas pxpxpxpx*/
+    border-color: #ffffff;
+    box-shadow: 5px 5px 5px rgb(122, 119, 119);
+}
+
+.box4:hover , #borderimg:hover {
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #ffffff;
+    box-shadow: 5px 5px 5px rgb(122, 119, 119);
+
+}
+
+@media only screen and (max-width: 768px) {
+    .boxtodes , .textimg {
+        grid-template-columns: repeat(1, 1fr);
+
+
+
+
+    }
+
+    .tudes {
+        flex-direction: column;
+
+    }
+
+    .tit,
+    .sub {
+        width: 100%;
+    }
+
+    .tit {
+        margin-bottom:;
+    }
+
+
+}
+
+.pp {padding: 5px;
+    width:100%
+    font-size: 18px;
+    background-image:linear-gradient(to right, #ffffff, #CE7226 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent !important;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.ppcomident {padding: 5px;
+    text-align: left;
+text-justify: auto;}
+
+.titulo1 {width:100%;
+    padding: 0%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+
+.textimg {margin-top: 20px;
+    flex-direction: column;
+    display: grid; 
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 12px;;
+    
+
+
+}
+
+.grandao {font-size: 40px;
+    font-weight: bolder;
+
+}
+
+#borderimg {border-width: 5px; 
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #CE7226;
+    transition: all 225ms ease-in-out;
+
+
+}
+
+@media only screen and (min-width: 768px) { .textimg { 
+    padding: 50px;
+    margin: auto;
+    width: 100%;
+    max-width: 1500px;
+    grid-template-columns: repeat(2, 1fr);
+    
+
+
+}
+
+
+
+}
+
+.resp { margin-top: 10px;
+    font-size: 17px;
+    text-indent: 30px;
+
+}
+
+.maisbox {
+    background-color: #0d1350;
+    width: 100%;
+
+
+}
+
+.newtext {background-image:linear-gradient(to right, #ffffff, #CE7226 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent !important;
+    -webkit-text-fill-color: transparent;
+
+    text-align: center;
+    margin:auto;
+
+    /*seu copião do caralho, depois que nao aprende chora*/
+    
+
+
+}
+
+.newtext > h1 {
+    font-size: 46px;}
+
+.imgstar 
+

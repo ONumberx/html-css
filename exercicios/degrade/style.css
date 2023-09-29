@@ -1,0 +1,63 @@
+
+
+#principal {
+    color: rgb(207, 22, 22); text-align: right;
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    /*font-weight: 500;
+    font-family: monserrat;
+    font-size: 19px;
+    font-style: normal;
+font: normal bolder 19px "monserrat" (shord code)
+style weight size family  */ }
+
+.subtitulos {color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+    .maria { color: rgb(255, 0, 0);
+    }
+
+#divoso { background-color: aquamarine;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+}
+
+#divosa {background-color: aqua;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    height: 500px; /*altura*/
+    width: 500px;
+}
+    #divosa:hover {background-color: blueviolet;
+    
+    }
+
+.display:hover {color: red
+    ;}
+.display > p {display: none;}
+.display > p  {display: block;
+color: aliceblue;
+background-color: blue;}
+
+a {color: blue;}
+
+a:hover {color: blueviolet;
+text-decoration: underline;}
+
+a:active {color: blueviolet;}
+ 
+a::after {content: 'link ';
+color: white;}
+
+/* Aprendeu os seletores?
+# ID
+. = class
+: pseudo class
+:: pseudo element
+> children ( ou seja dentro da class ou id eu consigo brincar */

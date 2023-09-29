@@ -1,0 +1,73 @@
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+body {
+    font-family: 'montserrat', sans-serif;
+    color: white;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+.tit, .sub {
+    display: inline-block;
+    height: 49%;
+    width: 49%;
+    padding-left: 5px;
+    border-bottom: 20px;
+    border-color: blueviolet;
+}
+
+/* Estilo para dispositivos móveis */
+.mobile {
+    display: block;
+    width: 100%;
+    padding: 100px;
+    border-bottom: none;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Reajuste as caixas diretamente sem adicionar uma classe extra */
+.box3, .box4, .box5 {
+    height: 30%;
+    width: 30%;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #CE7226;
+    text-align: left;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Estilo para dispositivos móveis */
+.mobile .box3 {
+    height: 100%;
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Estilo para dispositivos móveis */
+.mobile .box5:hover, .mobile .box3:hover, .mobile .box4:hover {
+    box-shadow: none;
+}
+
+/* Garanta que a largura do texto se ajuste à tela */
+.box3 p, .box4 p, .box5 p {
+    width: 100%;
+}
+
+/* Estilo para dispositivos móveis */
+.mobile .logo img {
+    max-width: 100%;
+}
+
+/* Mantém suas regras originais para as classes .boxtodes, .logo, .pp, .titulo1, .box5:hover, .box3:hover, .box4:hover, etc. */
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    margin: 0px;
+    font-size: 25px;
+}
