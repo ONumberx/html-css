@@ -349,7 +349,8 @@ p {
     font-size: 46px;
 }
 
-th {padding: 5px;}
+th {padding: 5px;
+font-size: 20px;}
 
 td {
     color: #CE7226;
@@ -367,9 +368,16 @@ price {color: #ffffff;
     border-bottom: solid #CE7226 1px;
 }
 
+
 table {border-collapse: collapse;
     text-align: center;
     padding-left: 50px;
 padding-right: 50px;}
 
+table > tr:nth-child(odd) {
+    background-color: #09ff53;
+}
+
 .imgstar
+
+.tabelacap {font-size: 30px;}
