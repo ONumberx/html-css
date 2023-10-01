@@ -1,0 +1,71 @@
+body {
+    height: 98vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(Imagens/pattern002.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed
+
+    /*color > image > position > repeat > size > attachment*/
+
+    /*background: black url(Imagens/target001.png) center center no-repeat cover fixed;*/
+}
+
+.mae {background-image: url(Imagens/target001.png);
+    background-size: 100% 100%;
+    padding: 10px;
+    height: 98vh;
+    position: relative;
+
+
+}
+
+div.quadrado {margin: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 300px;
+    position: absolute;
+}
+
+/*
+div#q2 {position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(
+Imagens/wallpaper003.jpg);
+    background-position: center center;
+
+}
+*/
+
+div#q1 {
+    left: 18%;
+    top: 50%;
+    background-image: url(Imagens/pattern004.png);
+
+
+}
+
+div#q2 {
+    background-image: url(Imagens/pattern002.png);
+    left: 82.9%;
+    top: 50%;
+}
+
+div#q3 {
+    left: 50.5%;
+    top: 50%;
+    background-image: linear-gradient(to top , yellow , black);
+    
+}
+*/
+
+.quadrado { transition: .3s;
+    transition-behavior: normal;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all
+}
