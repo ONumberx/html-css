@@ -20,6 +20,7 @@ body {
 }
 
 .tudes {
+    background-attachment: fixed;
 
     background-image: url('capa.jpg');
     /* GPT fez Substitua 'caminho-para-sua-imagem.jpg' pelo caminho real para a sua imagem */
@@ -381,3 +382,11 @@ table > tr:nth-child(odd) {
 .imgstar
 
 .tabelacap {font-size: 30px;}
+
+.parallax {border: solid white 10px;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px black;
+
+
+}
