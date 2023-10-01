@@ -309,13 +309,25 @@ p {
 }
 
 .maisbox {
+    line-height: 2em;
+    text-align:center;
+    grid-column: flex;
     columns: 4;
-    text-align: justify;
+    display: inline-flex;
     background-color: #0d1350;
-    width: 100%;
+    
 
 
 }
+
+.maisbox1 , .maisbox2 , .maisbox3 , .maisbox4 {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    width: 30%;
+    height: 30%;
+}
+
 
 .newtext {
     background-image: linear-gradient(to right, #ffffff, #CE7226 70%);
@@ -336,5 +348,28 @@ p {
 .newtext>h1 {
     font-size: 46px;
 }
+
+th {padding: 5px;}
+
+td {
+    color: #CE7226;
+    padding: 5px;
+    border: solid #CE7226 1px;
+    border-collapse: collapse;
+
+}
+
+price {color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: solid #CE7226 1px;
+}
+
+table {border-collapse: collapse;
+    text-align: center;
+    padding-left: 50px;
+padding-right: 50px;}
 
 .imgstar
