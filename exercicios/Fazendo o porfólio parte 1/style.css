@@ -313,6 +313,7 @@ p {
 }
 
 .maisbox {
+    box-shadow: inset (10px);
     display: flex;
     justify-content: space-evenly;
     line-height: 1em;
@@ -321,17 +322,14 @@ p {
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    margin-left: 200px;
-    margin-right: 200px;
-    
-
-    
+    border-collapse: separate;
     
 
 
 }
 
 .maisbox1 , .maisbox2 , .maisbox3 , .maisbox4 {
+    margin-top: 90px;
     background-color: #0c0707;
     opacity: 80%;
     text-align: center;
@@ -340,7 +338,7 @@ p {
     padding-left: 10px;
     border: 1px #5e5e66 solid;
     border-collapse: separate;
-    margin-bottom: 10px;
+    margin-bottom: 90px;
    
 }
 
