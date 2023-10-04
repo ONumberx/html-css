@@ -179,6 +179,34 @@
 
         <!--overflow é top, da pra testar -->
 
+
+        <form  action="cadastro.php">
+
+        <fieldset>
+            <legend>Nos Ligamos Para Você!</legend>
+            <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome" required placeholder="Nome" autocomplete="username"></p>
+            <p><label for="iwhatsapp">Whatsapp:</label> <input type="tel" name="whatsapp" id="iwhatsapp" required minlength="9" maxlength="20" placeholder="Telefone" autocomplete="tel" step="phone"></p>
+             <!---pattern de telefone e email pegar codigo--->
+            <p>Email:<input type="email" name="Email" id="iemail" autocomplete="email"></p>
+            <p><input type="submit" value="Enviar"></p>
+
+            <div class="checkbox">
+                <p><input type="checkbox" name="robo" id="irobo"><label for="irobo">Não sou um robo </label></p> 
+            </div>
+
+            <input checked type="radio" name="vendermais" id="ivendermais">
+            <label for="vendermais">Quero Vender mais</label>
+            <input type="radio" name="vendermais" id="ivendermais">
+            <label for="vendermais"> Não quero Vender mais</label>
+            
+            <!---para funcionar o label precisa colocar o name no input e o id é para o javascrip ou php--->
+
+
+            <!---method get e post fotos muitos bytes arquivos--->
+        </fieldset>
+    
+    </form>
+
     </main>
 
     <footer>

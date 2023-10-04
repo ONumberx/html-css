@@ -19,6 +19,9 @@ body {
     background-attachment: fixed;
 }
 
+.checkbox { 
+    transition: color .3s ease;}
+
 .tudes {
     background-attachment: fixed;
 
