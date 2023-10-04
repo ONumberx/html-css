@@ -1,5 +1,6 @@
 body 
 
+.semflow > p {color: #5507f1;}
 
 /*! Devices.css v0.2.0 | MIT License | github.com/picturepan2/devices.css */
 .device,
@@ -11,6 +12,9 @@ body
   box-sizing: border-box;
   display: block;
 }
+
+.semflow {overflow-x: unset;
+    overflow-y: none;}
 
 .device {
   position: relative;
@@ -456,4 +460,4 @@ body
 .device-iphone-14.device-blue .device-power {
   background: #7992aa;
 }
-
+ 
