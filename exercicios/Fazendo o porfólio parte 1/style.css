@@ -229,7 +229,7 @@ p {
     }
 
     .tit {
-        margin-bottom: ;
+        margin-bottom: 30px;
     }
 
 
@@ -328,18 +328,31 @@ p {
 
 }
 
-.h1p2 {
+.h1p2 {width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
     flex-direction: column;
 }
 
-.h1p2 > h1 {width: 49%;
-
+.h1p2 > h1 {
+    margin-top: 30px;
+    width: 49%;
+    font-size: 30px;
     display: inline-block;
     
 }
 
-.h1p2 > p {width: 49%;
-    font-size: 10px;
+.h1p2 > p {
+    align-items: center center;
+    width: 49%;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 10px;
+    border-left: solid 1px #ffffff;
+    
 
 }
 
