@@ -477,3 +477,33 @@ table > tr:nth-child(odd) {
 
 
 }
+
+
+.quatro {display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    
+
+
+}
+
+.quadro1 , .quadro2 , .quadro3 , .quadro4 {
+    width: 100%;
+    text-align: justify;
+    align-items: center;
+
+    background-color: antiquewhite;
+
+    
+
+
+
+}
+
+.quadro1 {width: 100%;
+    height: 100%;
+    font-size: 5px;
+
+}
