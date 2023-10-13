@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/*CONFIGURACOES celular */
+
+body {color: aliceblue;
+    background-image: url(Imagens/cev-portrait.jpg);
+    background-color: aqua;
+    background-position: left center;
+
+}
+
+h1 {color: rosybrown;}

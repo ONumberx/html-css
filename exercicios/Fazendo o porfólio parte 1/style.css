@@ -104,6 +104,19 @@ body {
     color: #CE7226;
 }
 
+.menu {width: 100%;
+    text-align: center;
+    display: inline-block;
+    background-color: #09ff53;
+    color: red;
+
+}
+
+.menu > li {list-style-type: none;
+
+
+}
+
 .linha {
     color: #CE7226;
     align-items: center;
